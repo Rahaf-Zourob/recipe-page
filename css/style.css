@@ -1,0 +1,204 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    margin: 1rem auto;
+    padding: 0;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+p,
+table {
+    margin: 0;
+    padding: 0;
+    font-size: 1.89rem
+}
+
+ul {
+    color: var(--dark-charcoal);
+}
+
+ul li b {
+    color: var(--dark-charcoal);
+}
+
+h1,
+h2.h2__young__serif,
+footer {
+    font-family: young-serif;
+}
+
+p,
+ul,
+ol,
+h2.h2__outfit,
+table {
+    font-family: Outfit;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header img.recipe__pic {
+    width: 100%;
+    height: 60vh;
+    border-radius: 1rem;
+    object-fit: fill
+}
+
+main article h1 {
+    font-weight: 400;
+    font-size: 4.8rem;
+    margin: 1.5rem 0;
+    color: var(--dark-charcoal);
+}
+
+main article p {
+    font-weight: 400;
+    color: var(--wenge-brown);
+}
+
+main section.preparation__section {
+    width: 95%;
+    margin: auto;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background-color: var(--rose-white);
+}
+
+main section.preparation__section h2 {
+    margin: 0;
+    font-weight: 700;
+    color: var(--dark-raspberry);
+}
+
+main section.preparation__section ul {
+    padding-left: 2rem;
+    color: var(--wenge-brown);
+}
+
+main section.preparation__section ul li::marker {
+    color: var(--dark-raspberry);
+    font-size: 1.5rem;
+}
+
+main section.preparation__section ul li {
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+}
+
+main section.instructions__section,
+section.nutrition__section,
+main section.ingredients__section {
+    margin: 2rem 0;
+}
+
+main section h2.head__section {
+    margin: 0;
+    color: var(--nutmeg);
+    font-weight: 400;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+main section.ingredients__section ul {
+    padding-left: 1.5rem;
+    color: var(--wenge-brown);
+    list-style-type: square;
+}
+
+main section.ingredients__section ul li::marker {
+    color: var(--nutmeg);
+    font-size: 1.4rem;
+}
+
+main section.ingredients__section ul li {
+    padding-left: 1rem;
+    margin-top: 0.8rem;
+}
+
+main hr.section__separator {
+    margin: 0;
+    border: 1px solid var(--light-grey);
+}
+
+
+main section.instructions__section ol {
+    padding-left: 2.5rem;
+    color: var(--wenge-brown);
+}
+
+main section.instructions__section ol li::marker {
+    font-weight: bold;
+    color: var(--nutmeg);
+}
+
+main section.instructions__section ol li {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+main section.instructions__section ol li b {
+    color: var(--dark-charcoal);
+}
+
+main section.nutrition__section p {
+    color: var(--wenge-brown);
+    margin: 1.5rem 0;
+}
+
+main section.nutrition__section table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+main section.nutrition__section table tr {
+    border-bottom: 2px solid var(--light-grey);
+    height: 5rem;
+}
+
+main section.nutrition__section table tr td,
+main section.nutrition__section table tr th {
+    width: 50%;
+}
+
+main section.nutrition__section table tr td {
+    color: var(--wenge-brown);
+}
+
+main section.nutrition__section table tr th,
+footer .attribution a {
+    color: var(--dark-raspberry);
+}
+
+footer {
+    color: var(--dark-charcoal);
+    text-align: center;
+}
