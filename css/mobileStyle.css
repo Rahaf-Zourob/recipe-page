@@ -1,0 +1,29 @@
+main article h1 {
+    font-size: 3rem;
+}
+
+header img.recipe__pic {
+    height: 50vh;
+}
+
+ul,
+ol,
+p,
+table {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+main section h2.head__section {
+    font-size: 1.9rem;
+}
+
+main section.ingredients__section ul li::marker,
+main section.preparation__section ul li::marker {
+    font-size: 1.2rem;
+}
